@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		70D64B120E0996A34FD81782 /* libPods-ZSTokenField.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 11EFD9690C0330335DFF0346 /* libPods-ZSTokenField.a */; };
+		D48EAA0B1B98373400B66484 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D48EAA0A1B98373400B66484 /* main.m */; };
+		D48EAA0E1B98373400B66484 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D48EAA0D1B98373400B66484 /* AppDelegate.m */; };
+		D48EAA111B98373400B66484 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D48EAA101B98373400B66484 /* ViewController.m */; };
+		D48EAA161B98373400B66484 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D48EAA151B98373400B66484 /* Images.xcassets */; };
+		D48EAA191B98373400B66484 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D48EAA171B98373400B66484 /* LaunchScreen.xib */; };
+		D48EAA251B98373400B66484 /* ZSTokenFieldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D48EAA241B98373400B66484 /* ZSTokenFieldTests.m */; };
+		D48EAA311B98388D00B66484 /* ZSTokenField.m in Sources */ = {isa = PBXBuildFile; fileRef = D48EAA301B98388D00B66484 /* ZSTokenField.m */; };
+		D48EAA321B98388D00B66484 /* ZSTokenField.m in Sources */ = {isa = PBXBuildFile; fileRef = D48EAA301B98388D00B66484 /* ZSTokenField.m */; };
+		D48EAA351B983DE100B66484 /* ZSTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = D48EAA341B983DE100B66484 /* ZSTextField.m */; };
+		D48EAA361B983DE100B66484 /* ZSTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = D48EAA341B983DE100B66484 /* ZSTextField.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D48EAA1F1B98373400B66484 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D48EA9FD1B98373400B66484 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D48EAA041B98373400B66484;
+			remoteInfo = ZSTokenField;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		11EFD9690C0330335DFF0346 /* libPods-ZSTokenField.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZSTokenField.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A4A43E74BBB14FF5112F851 /* Pods-ZSTokenField.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZSTokenField.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZSTokenField/Pods-ZSTokenField.release.xcconfig"; sourceTree = "<group>"; };
+		D48EAA051B98373400B66484 /* ZSTokenField.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZSTokenField.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D48EAA091B98373400B66484 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D48EAA0A1B98373400B66484 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D48EAA0C1B98373400B66484 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D48EAA0D1B98373400B66484 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D48EAA0F1B98373400B66484 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D48EAA101B98373400B66484 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D48EAA151B98373400B66484 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D48EAA181B98373400B66484 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D48EAA1E1B98373400B66484 /* ZSTokenFieldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZSTokenFieldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D48EAA231B98373400B66484 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D48EAA241B98373400B66484 /* ZSTokenFieldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZSTokenFieldTests.m; sourceTree = "<group>"; };
+		D48EAA2F1B98388D00B66484 /* ZSTokenField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZSTokenField.h; path = ZSTokenField/ZSTokenField.h; sourceTree = "<group>"; };
+		D48EAA301B98388D00B66484 /* ZSTokenField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZSTokenField.m; path = ZSTokenField/ZSTokenField.m; sourceTree = "<group>"; };
+		D48EAA331B983DE100B66484 /* ZSTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZSTextField.h; path = ZSTokenField/ZSTextField.h; sourceTree = "<group>"; };
+		D48EAA341B983DE100B66484 /* ZSTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZSTextField.m; path = ZSTokenField/ZSTextField.m; sourceTree = "<group>"; };
+		F22C9085349F29793627478C /* Pods-ZSTokenField.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZSTokenField.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZSTokenField/Pods-ZSTokenField.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D48EAA021B98373400B66484 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70D64B120E0996A34FD81782 /* libPods-ZSTokenField.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D48EAA1B1B98373400B66484 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0CF2796AE6AAE00BB4CB3230 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F22C9085349F29793627478C /* Pods-ZSTokenField.debug.xcconfig */,
+				1A4A43E74BBB14FF5112F851 /* Pods-ZSTokenField.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		294AFABF5E206561107D008C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				11EFD9690C0330335DFF0346 /* libPods-ZSTokenField.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D48EA9FC1B98373400B66484 = {
+			isa = PBXGroup;
+			children = (
+				D48EAA071B98373400B66484 /* ZSTokenField */,
+				D48EAA211B98373400B66484 /* ZSTokenFieldTests */,
+				D48EAA061B98373400B66484 /* Products */,
+				0CF2796AE6AAE00BB4CB3230 /* Pods */,
+				294AFABF5E206561107D008C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D48EAA061B98373400B66484 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D48EAA051B98373400B66484 /* ZSTokenField.app */,
+				D48EAA1E1B98373400B66484 /* ZSTokenFieldTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D48EAA071B98373400B66484 /* ZSTokenField */ = {
+			isa = PBXGroup;
+			children = (
+				D48EAA2E1B98385500B66484 /* ZSTokenField */,
+				D48EAA0F1B98373400B66484 /* ViewController.h */,
+				D48EAA101B98373400B66484 /* ViewController.m */,
+				D48EAA081B98373400B66484 /* Supporting Files */,
+			);
+			path = ZSTokenField;
+			sourceTree = "<group>";
+		};
+		D48EAA081B98373400B66484 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D48EAA0C1B98373400B66484 /* AppDelegate.h */,
+				D48EAA0D1B98373400B66484 /* AppDelegate.m */,
+				D48EAA151B98373400B66484 /* Images.xcassets */,
+				D48EAA171B98373400B66484 /* LaunchScreen.xib */,
+				D48EAA091B98373400B66484 /* Info.plist */,
+				D48EAA0A1B98373400B66484 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D48EAA211B98373400B66484 /* ZSTokenFieldTests */ = {
+			isa = PBXGroup;
+			children = (
+				D48EAA241B98373400B66484 /* ZSTokenFieldTests.m */,
+				D48EAA221B98373400B66484 /* Supporting Files */,
+			);
+			path = ZSTokenFieldTests;
+			sourceTree = "<group>";
+		};
+		D48EAA221B98373400B66484 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D48EAA231B98373400B66484 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D48EAA2E1B98385500B66484 /* ZSTokenField */ = {
+			isa = PBXGroup;
+			children = (
+				D48EAA2F1B98388D00B66484 /* ZSTokenField.h */,
+				D48EAA301B98388D00B66484 /* ZSTokenField.m */,
+				D48EAA331B983DE100B66484 /* ZSTextField.h */,
+				D48EAA341B983DE100B66484 /* ZSTextField.m */,
+			);
+			name = ZSTokenField;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D48EAA041B98373400B66484 /* ZSTokenField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D48EAA281B98373400B66484 /* Build configuration list for PBXNativeTarget "ZSTokenField" */;
+			buildPhases = (
+				FF63A783EF9CC300D55F9B5A /* Check Pods Manifest.lock */,
+				D48EAA011B98373400B66484 /* Sources */,
+				D48EAA021B98373400B66484 /* Frameworks */,
+				D48EAA031B98373400B66484 /* Resources */,
+				3251DA09B0321B42944304ED /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZSTokenField;
+			productName = ZSTokenField;
+			productReference = D48EAA051B98373400B66484 /* ZSTokenField.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D48EAA1D1B98373400B66484 /* ZSTokenFieldTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D48EAA2B1B98373400B66484 /* Build configuration list for PBXNativeTarget "ZSTokenFieldTests" */;
+			buildPhases = (
+				D48EAA1A1B98373400B66484 /* Sources */,
+				D48EAA1B1B98373400B66484 /* Frameworks */,
+				D48EAA1C1B98373400B66484 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D48EAA201B98373400B66484 /* PBXTargetDependency */,
+			);
+			name = ZSTokenFieldTests;
+			productName = ZSTokenFieldTests;
+			productReference = D48EAA1E1B98373400B66484 /* ZSTokenFieldTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D48EA9FD1B98373400B66484 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = DSoftware;
+				TargetAttributes = {
+					D48EAA041B98373400B66484 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					D48EAA1D1B98373400B66484 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = D48EAA041B98373400B66484;
+					};
+				};
+			};
+			buildConfigurationList = D48EAA001B98373400B66484 /* Build configuration list for PBXProject "ZSTokenField" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D48EA9FC1B98373400B66484;
+			productRefGroup = D48EAA061B98373400B66484 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D48EAA041B98373400B66484 /* ZSTokenField */,
+				D48EAA1D1B98373400B66484 /* ZSTokenFieldTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D48EAA031B98373400B66484 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D48EAA191B98373400B66484 /* LaunchScreen.xib in Resources */,
+				D48EAA161B98373400B66484 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D48EAA1C1B98373400B66484 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3251DA09B0321B42944304ED /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZSTokenField/Pods-ZSTokenField-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF63A783EF9CC300D55F9B5A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D48EAA011B98373400B66484 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D48EAA111B98373400B66484 /* ViewController.m in Sources */,
+				D48EAA0E1B98373400B66484 /* AppDelegate.m in Sources */,
+				D48EAA0B1B98373400B66484 /* main.m in Sources */,
+				D48EAA311B98388D00B66484 /* ZSTokenField.m in Sources */,
+				D48EAA351B983DE100B66484 /* ZSTextField.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D48EAA1A1B98373400B66484 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D48EAA251B98373400B66484 /* ZSTokenFieldTests.m in Sources */,
+				D48EAA361B983DE100B66484 /* ZSTextField.m in Sources */,
+				D48EAA321B98388D00B66484 /* ZSTokenField.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D48EAA201B98373400B66484 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D48EAA041B98373400B66484 /* ZSTokenField */;
+			targetProxy = D48EAA1F1B98373400B66484 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D48EAA171B98373400B66484 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D48EAA181B98373400B66484 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D48EAA261B98373400B66484 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D48EAA271B98373400B66484 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D48EAA291B98373400B66484 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F22C9085349F29793627478C /* Pods-ZSTokenField.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZSTokenField/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D48EAA2A1B98373400B66484 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A4A43E74BBB14FF5112F851 /* Pods-ZSTokenField.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZSTokenField/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D48EAA2C1B98373400B66484 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ZSTokenFieldTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZSTokenField.app/ZSTokenField";
+			};
+			name = Debug;
+		};
+		D48EAA2D1B98373400B66484 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ZSTokenFieldTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZSTokenField.app/ZSTokenField";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D48EAA001B98373400B66484 /* Build configuration list for PBXProject "ZSTokenField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D48EAA261B98373400B66484 /* Debug */,
+				D48EAA271B98373400B66484 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D48EAA281B98373400B66484 /* Build configuration list for PBXNativeTarget "ZSTokenField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D48EAA291B98373400B66484 /* Debug */,
+				D48EAA2A1B98373400B66484 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D48EAA2B1B98373400B66484 /* Build configuration list for PBXNativeTarget "ZSTokenFieldTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D48EAA2C1B98373400B66484 /* Debug */,
+				D48EAA2D1B98373400B66484 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D48EA9FD1B98373400B66484 /* Project object */;
+}
