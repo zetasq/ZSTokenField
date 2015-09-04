@@ -37,7 +37,7 @@
     }];
     
     self.view.backgroundColor = [UIColor whiteColor];
-    self.tokenField.backgroundColor = [UIColor whiteColor];
+    self.tokenField.backgroundColor = [UIColor lightGrayColor];
     self.tokenField.delegate = self;
     self.tokenField.datasource = self;
 }
