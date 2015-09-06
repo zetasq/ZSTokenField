@@ -21,6 +21,7 @@
 @property (nonatomic, strong) NSMutableArray *tokenViews; // the last tokenView is editingField
 @property (nonatomic, assign, getter=isEditingFieldAlreadyEmpty) BOOL alreadyEmpty;
 @property (nonatomic, assign) CGSize newFrameSize;
+@property (nonatomic, assign) BOOL firstLoad; // this flag is used to reload tokens in layoutsubviews only once
 
 @end
 
@@ -29,6 +30,8 @@
 - (instancetype) init {
     if (self = [super init]) {
         self.translatesAutoresizingMaskIntoConstraints = NO;
+        
+        _firstLoad = YES;
         
         _maxTagLength = [UIScreen mainScreen].bounds.size.width;
         _lineSpace = 5;
@@ -150,10 +153,10 @@
 - (void) layoutSubviews {
     [super layoutSubviews];
     
-    static dispatch_once_t onceToken;
-    dispatch_once(&onceToken, ^{
+    if (_firstLoad) {
         [self reload];
-    });
+        _firstLoad = NO;
+    }
 }
 
 - (CGSize) intrinsicContentSize {
