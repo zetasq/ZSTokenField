@@ -33,7 +33,6 @@
         
         _firstLoad = YES;
         
-        _maxTagLength = [UIScreen mainScreen].bounds.size.width;
         _lineSpace = 5;
         _tagHeight = 25;
         _tagSpace = 3;
@@ -138,10 +137,6 @@
         _editingField.placeholder = _placeHolder;
     }
     return _editingField;
-}
-
-- (CGFloat) maxTagLength {
-    return MIN(_maxTagLength, self.bounds.size.width - 2 * self.horizontalPadding);
 }
 
 - (void) setPlaceHolder:(NSString *)placeHolder {

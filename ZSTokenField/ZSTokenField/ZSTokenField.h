@@ -33,7 +33,6 @@
 @property (nonatomic, weak) id<ZSTokenFieldDatasource> datasource;
 
 #pragma mark - Space Parameters
-@property (nonatomic, assign) CGFloat maxTagLength;
 @property (nonatomic, assign) CGFloat lineSpace;
 @property (nonatomic, assign) CGFloat tagHeight;
 @property (nonatomic, assign) CGFloat tagMargin;
